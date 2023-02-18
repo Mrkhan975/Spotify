@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@100&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(232, 167, 82);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 45px;
+    padding: 0 7px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 69vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round', Sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url('nade.jpg');
+
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.icons{
+    margin-top: 5px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 73vw;
+    cursor: pointer;
+}
+
+.songItemcontainer{
+    margin-top: 50px;
+}
+
+.songItem{
+    border: 2px solid black;
+       height: 40px;
+       display: flex;
+       background-color:rgb(156, 173, 156);
+       color: black;
+       margin: 12px 0;
+       justify-content: space-between;
+       align-items: center;
+       border-radius: 30px;
+       position: relative;
+       right: 23vw;  
+       
+}
+
+.songItem img{
+    width: 25px;
+    margin: 0 20px;
+    border-radius: 10px;
+    
+}
+
+.timestamp{
+    margin: 0 60px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.songInfo{
+    /*position: relative;
+    right: 31vw;
+    bottom: 30px;*/
+    position: absolute;
+    left: 13vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    font-family: 'varela Round', Sans-serif;
+}
+h1:hover{
+    color: burlywood;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+nav>ul>li:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.5s;
+}
